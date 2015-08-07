@@ -1,0 +1,22 @@
+/* SVN FILE: $Id: CHANGELOG 5 2010-07-14 02:26:52Z jd $*/
+
+Version 0.1
+* first working version
+* minimal error checking
+* lacking efficiency and extended functionality
+
+Version 0.2
+* added functionality to analyze all 4 primary partitions
+* added some modular features
+
+Version 0.2.1
+*  can now parse each of the primary partition entries, 
+   analyze each of the 16 byte entries for information such as boot indicator, starting head, 
+   starting sector, starting cylinder, system ID, ending head, ending sector, ending cylinder, and total sectors
+*  adds a analyzed function plus can output analysis to file
+
+Version 0.3.17
+* added hex byte offset searching function which allows you to search for a hexadecimal
+  string within a dd image file (VMFS partition)
+* modularized
+* 
