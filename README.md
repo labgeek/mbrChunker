@@ -29,7 +29,7 @@ gcc -g -Wall -o mbrChunker mbrChunker.c dd2vmdk.c mbr.c
  
 root@redbox:/data/projects/C/mbrChunker-0.3-release# ./mbrChunker -h
 Program: mbrChunker
-Author:  JD Durick <jd@vmforensics.org>
+Author:  JD Durick <labgeek@gmail.com>
 Website: http://vmforensics.org
 
 Description:  mbrChunker is a *nix-based program that allows you to mount raw disk images
@@ -93,7 +93,7 @@ EXAMPLE #1
 ---------
 root@redbox:/data/projects/C/mbrChunker/Debug# ./mbrChunker -i /data/images/sixgbimage.img -v /tmp/output.vmdk
 
-Author:   JD Durick <jd@vmforensics.org>
+Author:   JD Durick <labgeek@gmail.com>
 Program:  mbrChunker
 Website:  http://vmforensics.org
 Version:  0.2
@@ -114,7 +114,7 @@ EXAMPLE #2
 ----------
 root@redbox:/data/projects/C/mbrChunker/Debug# ./mbrChunker -i /data/images/firstsector.img -a /tmp/output_analysis.txt
 
-Author:   JD Durick <jd@vmforensics.org>
+Author:   JD Durick <labgeek@gmail.com>
 Program:  mbrChunker
 Website:  http://vmforensics.org
 Version:  0.2
