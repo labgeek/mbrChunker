@@ -8,8 +8,7 @@
 
 General
 ---------- 
-mbrChunker is a *nix-based program that allows you to mount raw disk images (created by dd, dcfldd, dc3dd, ftk imager, etc) by taking the
- raw image, analyzing the master boot record (physical sector 0), and getting specific information that is needed to create a vmdk file.
+mbrChunker is a *nix-based program that allows you to mount raw disk images (created by dd, dcfldd, dc3dd, ftk imager, etc) by taking the raw image, analyzing the master boot record (physical sector 0).
  Version 0.3.17 has the ability to extract data from the master boot record of any raw image, extracted information such as heads
  cylinders, sectors per track, etc. and create a working vmdk file (monolithic flat disk).  The tool now has the ability to search 
  for hex byte patterns within any type of binary files (ie.  dd images of VMFS partitions). 
